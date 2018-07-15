@@ -40,6 +40,12 @@ a {
     padding: 20px;
 }
 
+.form-wrapper {
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
+
 img {
     padding: 20px;
 }
