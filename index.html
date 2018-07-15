@@ -9,16 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
 <style>
-header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 h1 {
     padding: 20px;
     background-color: #4aaaa5;
     color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -33,12 +29,14 @@ a {
   </head>
   <body>
     <header>
+
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-            <span class="navbar-brand mb-0 h1">
+            <div class="container-fluid">
+              <div class="navbar-header">
+            <span class="navbar-brand">
             <h1>Andrea Carter</h1>
-            </span>
-            <section id="links">
-            <ul class="nav justify-content-end">
+            </span></div>
+            <ul class="nav navbar-nav navbar-right">
             <li class="nav-item">
             <a class="nav-link" href="#">About</a></li>
             <li class="nav-item"> <span class="navbar-text">|</span> </li>
@@ -48,8 +46,7 @@ a {
             <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
-      </section>
-    
+          </div>
       </nav>
 </header>
 
