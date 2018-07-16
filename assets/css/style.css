@@ -4,11 +4,6 @@ body {
     background-image: url("../images/background.png");
 }
 
-header {
-    background-color: #ffffff;
-    border-bottom: 2px solid #cccccc;
-}
-
 h1 {
     color: #ffffff;
     background-color: #4aaaa5;
