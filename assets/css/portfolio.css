@@ -41,8 +41,22 @@ a {
     padding: 20px;
 }
 
-img {
+.imgcontainer {
+    position: relative;
+    width: 250px;
+    display: inline-block;
     padding: 20px;
+}
+
+#blocktext {
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    top: 75%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
 }
 
 p {
